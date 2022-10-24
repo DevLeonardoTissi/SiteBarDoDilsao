@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comprar | Bar do Dilsão</title>
+
+	<!--Habilitar caracteres especiais brasileiros-->
+	<meta charset="utf-8">
+
+	<!--habilitar compatibilidade com o Microsoft Edge-->
+    <meta http-equiv="x-UA-compatible" content="IE=edge">
+
+    <!--view Port-->
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--CSS Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="./styles/global.css">
+    <link rel="stylesheet" type="text/css" href="./styles/home.css">
+
+    <!--JavaScript-->
+    <script src="./javascript.Js" type="text/javascript"></script>
+
+    <!--Fontes importadas do google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div id="room" class="content">
+        <div class="containerheader">
+         <header >
+            <a href="./index.html">
+                <img class="img-logo boxshadow" src="./img/logo.gif">
+            </a>
+
+            <div>
+                <a class="botaolink" href="./index.html" target="_self" >Bar do Dilsão |</a>
+                <a class="botaolink" href="./cardapio.html" target="_self" >Cardápio |</a>
+                 <a class="botaolink" href="./avaliacao.html" target="_self" >Avaliações |</a>
+                <a class="botaolink" href="./localizacao.html" target="_self" >Como Chegar |</a>
+                <a class="botaolink" href="./comprar.html" target="_self" >Comprar |</a>
+            </div>
+         </header> 
+        </div>
+
+        <div class="div-banner">
+            <img class="img-banner boxshadow" src="./img/banner.png">
+        </div>
+
+        
+         <p class="letra-valentime amarelo sombra-txt textocentro">Comprar</p>
+
+        
+             <table border="1" align="left" style="width: 60%; margin-right: .8rem; margin-bottom: 2rem;">
+                <tr>
+                        <td style="width: 20%">
+                            <a class="subir" href="cardapio.html">
+                             <img class="img-menu" src="./img/img-menu./bebida1.jpg"> 
+                            </a>    
+                        </td>
+
+                        <td align="center" style="width: 40%">
+                               <h4 class="amarelo sombra-txt textocentro"> BUDWEISER AMERICAN LAGER (600Ml) </h4> 
+                               <h4 class="amarelo sombra-txt textocentro"> R$:8,65 </h4> 
+                        </td>
+
+                        <td align="center" style="width: 20%">
+                                
+                                <input type="number" min="0" Class="valor caixaquantidade" placeholder="Digite a Quantidade">
+                                <input class="botaocomprar" type="Button" value="Adicionar"  onclick="adicionaitem('BUDWEISER AMERICAN LAGER (600Ml)' , 8.65 , 0)">
+                        </td>
+                </tr>
+
+
+                <tr>
+                        <td style="width: 20%">
+                            <a class="subir" href="cardapio.html">
+                             <img class="img-menu" src="./img/img-menu./comida4.jpg"> 
+                            </a>    
+                        </td>
+
+                        <td align="center" style="width: 40%">
+                               <h4 class="amarelo sombra-txt textocentro"> PICADINHO DE CARNE DO DILSÃO (PORÇÃO) </h4> 
+                               <h4 class="amarelo sombra-txt textocentro"> R$:9,00 </h4> 
+                        </td>
+
+                        <td align="center" style="width: 20%">
+                                
+                                <input type="number" min="0" Class="valor caixaquantidade" placeholder="Digite a Quantidade">
+                                <input class="botaocomprar" type="Button" value="Adicionar"  onclick="adicionaitem('PICADINHO DE CARNE DO DILSÃO (PORÇÃO)' , 9.00 , 1)">
+                        </td>
+                </tr>
+
+
+                <tr>
+                        <td style="width: 20%">
+                            <a class="subir" href="cardapio.html">
+                             <img class="img-menu" src="./img/img-menu./comida3.jpg"> 
+                            </a>    
+                        </td>
+
+                        <td align="center" style="width: 40%">
+                               <h4 class="amarelo sombra-txt textocentro"> FRANGO FRITO DA DONA LUZIA (PORÇÃO) </h4> 
+                               <h4 class="amarelo sombra-txt textocentro"> R$:9,10 </h4> 
+                        </td>
+
+                        <td align="center" style="width: 20%">
+                                
+                                <input type="number" min="0" Class="valor caixaquantidade" placeholder="Digite a Quantidade">
+                                <input class="botaocomprar" type="Button" value="Adicionar"  onclick="adicionaitem('FRANGO FRITO DA DONA LUZIA (PORÇÃO)' , 9.10 , 2)">
+                        </td>
+                </tr>
+
+                <tr>
+                        <td style="width: 20%">
+                            <a class="subir" href="cardapio.html">
+                             <img class="img-menu" src="./img/img-menu./comida2.jpg"> 
+                            </a>    
+                        </td>
+
+                        <td align="center" style="width: 40%">
+                               <h4 class="amarelo sombra-txt textocentro"> PASTEL DA DONA ILZA (PORÇÃO 6 UN.) </h4> 
+                               <h4 class="amarelo sombra-txt textocentro"> R$:9,21 </h4> 
+                        </td>
+
+                        <td align="center" style="width: 20%">
+                                
+                                <input type="number" min="0" Class="valor caixaquantidade" placeholder="Digite a Quantidade">
+                                <input class="botaocomprar" type="Button" value="Adicionar"  onclick="adicionaitem('PASTEL DA DONA ILZA (PORÇÃO 6 UN.)' , 9.21 , 3)">
+                        </td>
+                </tr>
+
+                <tr>
+                        <td style="width: 20%">
+                            <a class="subir" href="cardapio.html">
+                             <img class="img-menu" src="./img/img-menu./bebida4.jpg"> 
+                            </a>    
+                        </td>
+
+                        <td align="center" style="width: 40%">
+                               <h4 class="amarelo sombra-txt textocentro"> CERVEJA ANTARCTICA ORIGINAL (600ml) </h4> 
+                               <h4 class="amarelo sombra-txt textocentro"> R$:9,25 </h4> 
+                        </td>
+
+                        <td align="center" style="width: 20%">
+                               
+                                <input type="number" min="0" Class="valor caixaquantidade" placeholder="Digite a Quantidade">
+                                <input class="botaocomprar" type="Button" value="Adicionar"  onclick="adicionaitem('CERVEJA ANTARCTICA ORIGINAL (600ml)' , 9.25 , 4)">
+                        </td>
+                </tr>
+
+                    <tr>
+                        <td style="width: 20%">
+                            <a class="subir" href="cardapio.html">
+                             <img class="img-menu" src="./img/img-menu./bebida3.jpg"> 
+                            </a>    
+                        </td>
+
+                        <td align="center" style="width: 40%">
+                               <h4 class="amarelo sombra-txt textocentro"> BRAHMA DUPLO MALTE (600Ml) </h4> 
+                               <h4 class="amarelo sombra-txt textocentro"> R$:9,26 </h4> 
+                        </td>
+
+                        <td align="center" style="width: 20%">
+                                
+                                <input type="number" min="0" Class="valor caixaquantidade" placeholder="Digite a Quantidade">
+                                <input class="botaocomprar" type="Button" value="Adicionar"  onclick="adicionaitem('BRAHMA DUPLO MALTE (600Ml))' , 9.26 , 5)">
+                        </td>
+                </tr>
+
+                        <tr>
+                        <td style="width: 20%">
+                            <a class="subir" href="cardapio.html">
+                             <img class="img-menu" src="./img/img-menu./comida1.jpg"> 
+                            </a>    
+                        </td>
+
+                        <td align="center" style="width: 40%">
+                               <h4 class="amarelo sombra-txt textocentro"> COXINHAS ENCOMENDADAS </h4> 
+                               <h4 class="amarelo sombra-txt textocentro"> R$:9,27 </h4> 
+                        </td>
+
+                        <td align="center" style="width: 20%">
+                                
+                                <input type="number" min="0" Class="valor caixaquantidade" placeholder="Digite a Quantidade">
+                                <input class="botaocomprar" type="Button" value="Adicionar"  onclick="adicionaitem('COXINHAS ENCOMENDADAS' , 9.27 , 6)">
+                        </td>
+                </tr>
+
+                    </tr>
+
+                        <tr>
+                        <td style="width: 20%">
+                            <a class="subir" href="cardapio.html">
+                             <img class="img-menu" src="./img/img-menu./bebida2.jpg"> 
+                            </a>    
+                        </td>
+
+                        <td align="center" style="width: 40%">
+                               <h4 class="amarelo sombra-txt textocentro"> EISENBAHN PILSEN (600Ml) </h4> 
+                               <h4 class="amarelo sombra-txt textocentro"> R$:9,29 </h4> 
+                        </td>
+
+                        <td align="center" style="width: 20%">
+                               
+                                <input type="number" min="0" Class="valor caixaquantidade" placeholder="Digite a Quantidade">
+                                <input class="botaocomprar" type="Button" value="Adicionar"  onclick="adicionaitem('EISENBAHN PILSEN (600Ml))' , 9.29 , 7)">
+                        </td>
+                </tr>
+            </table>
+        
+
+        <div class="carrinhobox boxshadow">
+            <div class="carrinho-container">
+                <div class="nome-icone">
+                    <h4 class="sombra-txt">Seu carrinho</h4>
+                    <img class="logocarrinho" src="./img/logocarrinho.png">
+                </div>
+
+                
+                <ul></ul>
+            
+                <div class="restocarrinho">    
+                    <div class="tagpcarrinho">  
+                        <p class="oswald amarelo pcarrinho">Total: R$ </p>
+                        <p class="oswald amarelo pcarrinho"id="ptot"></p>
+                    </div>
+                        <input type="Button" value="Remover item" class="botaoremover" onclick="removeitem()">
+                     
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="rodape">
+           <div class="conteudo-rodape">
+             <table class="tabela-rodape" align="center">
+                <tr>    
+                <td align="center" style="width: 33%;">Horário</td>
+                <td align="center" style="width: 33%;">Local</td>
+                <td align="center" style="width: 33%;">Contato</td>
+              </tr>
+
+               <tr>
+                 
+                   <td align="center">
+                     Segunda á sábado <br>
+                     07:00 às 18:00 <br>
+                     Domingo <br>
+                     08:00 às 11:00 
+                   </td> 
+
+
+                   <td align="center">
+                     Rua aonde o pau quebra, 201 <br>
+                     Caiapó <br>
+                     Pirapetinga - MG <br>
+                     CEP: 36730000
+                    </td>
+
+
+                    <td align="center">
+                     Telefone/whatsapp <br>
+                     (32)3465-2070 <br>
+                     Email <br>
+                     bardodilsão@gmail.com.br
+                    </td>
+               </tr>
+  
+            </table> 
+           </div> 
+        </div>
+    
+      
+
+        <div class="atalho localizacao">
+            <a href="localizacao.html">
+                <img class="img-atalho" src="./img/localizacao.png">
+            </a>        
+        </div>
+   
+</div> 
+
+
+
+</body>
+</html>
